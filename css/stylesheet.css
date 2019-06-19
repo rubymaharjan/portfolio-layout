@@ -85,7 +85,6 @@ line-height: 30px;
 .box-container{
   margin-top: 170px;
   padding-left: 50px;
-  /* line-height: 2px; */
 
 }
 hr{
@@ -102,6 +101,7 @@ hr{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin-top: 30px;
 }
 .box1,.box2,.box3{
  border-radius: 5px;
