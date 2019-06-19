@@ -1,0 +1,137 @@
+.b-img{
+    height:auto;
+    width: 100%;
+    position: absolute;
+  margin-left: -8px;
+}
+img{
+  width: 100%;
+  max-height: 800px;
+}
+  
+.container{
+  position: relative;
+  z-index: 1;
+}
+
+.nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+    margin-right: 25px;
+}
+
+.nav-bar li {
+  float: right;
+}
+
+.nav-bar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nv-bar li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+.sub-container{
+margin-top: 80px;
+}
+
+.image-section{
+height: 100px;
+width: 100px;
+border-radius: 50%;
+overflow: hidden;
+margin: 0 auto;
+}
+.image-section img{
+      width: 100%;   
+}
+.text-section{
+text-align: center;
+color: #fff;
+line-height: 4px;
+}
+.text-section h3,p{
+  text-align: center;
+}
+
+.button-section{
+  border-radius: 25px;
+  height: 30px;
+  background-color: #fff;
+  color: blue;
+  margin-right: 85px;
+}
+
+.social-icons ul{
+  float: right;
+  color: #fff;
+  font-size: 20px;
+  list-style-type: none;
+  margin-right: 35px;
+}
+.social-icons li{
+line-height: 30px;
+}
+.box-container{
+  margin-top: 170px;
+  padding-left: 50px;
+  /* line-height: 2px; */
+
+}
+hr{
+  width: 100px;
+  float: left;
+  height: 2px;
+  background-color: blue;
+}
+.box-container p{
+  text-align: left;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.box1,.box2,.box3{
+ border-radius: 5px;
+  height: 180px;
+  width: 260px;
+  /* border: 2px solid black; */
+box-shadow: 5px 8px 18px #888888;
+  column-gap: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.box-contents{
+  vertical-align: middle;
+    text-align: center;
+    color: blue;
+   width: 60px;
+   height: 45px;
+   border-radius: 50%;
+   margin-top: 65px;
+   margin-left: -25px;
+   box-shadow: 2px 5px 8px #888888;
+   background-color: #fff;
+}
+.box-content{
+  padding-left: 10px;
+}
+.box-contents i{
+  padding-top: 10px;
+}
+.box-content p{
+  text-align: left;
+}
